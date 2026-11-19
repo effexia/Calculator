@@ -24,13 +24,15 @@ button {
 .display {
   background-color: #94565e;
   padding: 20px 20px;
+  height: 45px;
   border-radius: 10px;
   color: white;
   font-weight: 700;
   font-size: 28pt;
   letter-spacing: 2px;
-  text-align: end;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: end;
 }
 
 .display > p {
